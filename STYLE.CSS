@@ -1,0 +1,147 @@
+*{
+    padding:0px;
+    margin: 0;
+   }
+#triangle{
+  width:35%;
+  height:60px;
+  margin: .8rem;
+}
+.nav,.navbar{
+   margin:1vmin;
+   display:flex;
+  justify-content: space-evenly;
+ align-items: center;
+border:2px solid trnasparent;
+
+}
+.navbar{
+  width:45vw;
+  justify-items:space-evenly;
+  }
+.item{
+    border:2px solid transparent;
+       width: 60px;
+    height: 60px;
+    display:flex;
+    justify-content: space-evenly;
+ align-content:center;
+ align-items: center;
+   
+}
+.main{
+    margin-top:4rem;
+    margin-left:9rem;
+      height:40vh;
+    width:50vw;
+    line-height:1.4rem;
+    font-size: 1.4rem; 
+    margin-right: 1.3rem;
+}
+
+  p.text{
+line-height:2.6rem;
+font-size: 2.6rem;
+font-weight: 600;}
+.work{
+margin-top:1.4rem;
+
+background-color: blue;
+color:white;
+padding:9px;
+font-weight: 700;
+font-size: medium;
+border:none;
+
+}
+.font{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(1,1fr);
+    
+  }
+      
+      .vshape{
+       margin:0px;
+       width:40vw;
+      height: 100vh;
+           clip-path: polygon(0% 30%,100% 0%,100% 45%,45% 50%,100% 58%,
+      100% 100%,0% 65%);
+           }
+.ABOUT{
+    width:90vw;
+    height:50vh;
+     display:flex;
+     justify-content:space-evenly; 
+    margin-right: 3rem;
+}
+.content,.image{
+    width:50%;
+    height: 50%;
+    margin:1.5rem;
+  }
+  .content{
+    line-height: 1.2rem;
+    font-size: 1rem;
+    font-family:'Times New Roman', Times, serif
+
+  }
+  .image{
+    display: flex;
+      justify-content: flex-end;
+  }
+  h1{
+    line-height: 1.5rem;
+    font-weight: 400;
+  }
+  .count{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin:4%;
+  }
+
+.grid{
+  display: grid;
+  grid-template-rows: repeat(2,1fr);
+  grid-template-columns: repeat(2,1fr);
+height:500px;
+}
+.gridbox,.swap{
+display:flex;
+flex-direction: column;
+padding:3.5vmin;
+justify-content:space-evenly;
+}
+    .READ{
+      background-color: white;
+      color:rgb(94, 94, 208);
+   font-size:.8rem;
+      font-weight: 700;
+    border:none;
+    text-align: start;
+    }
+
+ .opensource{
+  display:flex;
+  place-content: center;
+  width:90vw;
+  height:200px;
+margin:3.5vmin;
+}    
+.boxswap{
+  box-shadow:.1vmin 1vmin gainsboro;
+  height:90%;
+  width:28%;
+  display:flex;
+  margin:2vmin;
+}   
+.icon{
+  height:100%;
+  width:30%;
+}
+a{
+  text-decoration: none;
+  color:black;
+  margin:.5vmin;
+}
